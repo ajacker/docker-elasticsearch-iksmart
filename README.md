@@ -11,6 +11,10 @@ docker：es+iksmart+apline
 ```bash
 docker pull registry.cn-hangzhou.aliyuncs.com/ajacker/elasticsearch-iksmart-apline:<version>
 ```
+或者
+```bash
+docker pull ajacker/elasticsearch-iksmart-apline:<version>
+```
 
 所有的版本请查看release tag
 
