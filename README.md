@@ -15,4 +15,4 @@ docker pull registry.cn-hangzhou.aliyuncs.com/ajacker/elasticsearch-iksmart-apli
 所有的版本请查看release tag
 
 例如：存在releasetag：release-v7.4.2   
-->`docker pull registry.cn-hangzhou.aliyuncs.com/ajacker/elasticsearch-iksmart-apline:7.4.2`
+-> `docker pull registry.cn-hangzhou.aliyuncs.com/ajacker/elasticsearch-iksmart-apline:7.4.2`
