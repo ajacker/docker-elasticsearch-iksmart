@@ -1,5 +1,5 @@
 # docker-elasticsearch-iksmart
-docker：es+iksmart+apline
+docker：es+iksmart+alpine
 
 
 ## 内容
