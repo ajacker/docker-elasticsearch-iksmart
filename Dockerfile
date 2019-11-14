@@ -26,8 +26,7 @@ ENV ES_TMPDIR=/home/elasticsearch/elasticsearch.tmp \
 RUN wget -q -O - https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-oss-${ek_version}-linux-x86_64.tar.gz \
  |  tar -zx \ 
  && mv elasticsearch-${ek_version} elasticsearch \
- && mkdir -p ${ES_TMPDIR} ${ES_DATADIR} \
- && rm *.tar.gz
+ && mkdir -p ${ES_TMPDIR} ${ES_DATADIR}
 
 # https://github.com/medcl/elasticsearch-analysis-ik/releases
 RUN echo -e "y" | sh elasticsearch/bin/elasticsearch-plugin install -s https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v${ek_version}/elasticsearch-analysis-ik-${ek_version}.zip
